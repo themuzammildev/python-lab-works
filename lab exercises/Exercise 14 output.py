@@ -1,14 +1,14 @@
 Python 3.11.5 (v3.11.5:cce6ba91b3, Aug 24 2023, 10:50:31) [Clang 13.0.0 (clang-1300.0.29.30)] on darwin
 Type "help", "copyright", "credits" or "license()" for more information.
 
-======== RESTART: /Users/Aayyan/Desktop/python_lab_exercise/Exercise 14.py =======
+======== RESTART: /Users/Muzammil/Desktop/python_lab_exercise/Exercise 14.py =======
 Deposit successful.
 Withdrawal successful.
 Account holder: Asha
 Balance: 1300
 
-======== RESTART: /Users/Aayyan/Desktop/python_lab_exercise/Exercise 14.py =======
-Enter account holder name: Aayyan
+======== RESTART: /Users/Muzammil/Desktop/python_lab_exercise/Exercise 14.py =======
+Enter account holder name: Muzammil
 Enter initial balance: 123400
 
 --- BANK MENU ---
@@ -18,7 +18,7 @@ Enter initial balance: 123400
 4. Exit
 Enter your choice: 3
 
-Account Holder: Aayyan
+Account Holder: Muzammil
 Current Balance: Rs. 123400.0
 
 --- BANK MENU ---
@@ -37,7 +37,7 @@ Amount deposited successfully!
 4. Exit
 Enter your choice: 3
 
-Account Holder: Aayyan
+Account Holder: Muzammil
 Current Balance: Rs. 143400.0
 
 --- BANK MENU ---
@@ -56,7 +56,7 @@ Amount withdrawn successfully!
 4. Exit
 Enter your choice: 3
 
-Account Holder: Aayyan
+Account Holder: Muzammil
 Current Balance: Rs. 19944.0
 
 --- BANK MENU ---

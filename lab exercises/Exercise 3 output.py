@@ -14,13 +14,13 @@ the area of triangle is:  3.0
 Enter choice(1/2/3/4): 4
 Enter the radius: 3
 Traceback (most recent call last):
-  File "/Users/Aayyan/Desktop/python_lab_exercise/Exercise 3.py", line 51, in <module>
+  File "/Users/Muzammil/Desktop/python_lab_exercise/Exercise 3.py", line 51, in <module>
     area_circle()
-  File "/Users/Aayyan/Desktop/python_lab_exercise/Exercise 3.py", line 32, in area_circle
+  File "/Users/Muzammil/Desktop/python_lab_exercise/Exercise 3.py", line 32, in area_circle
     area = math.pi * (r * r)
 NameError: name 'r' is not defined
 
-============================================ RESTART: /Users/Aayyan/Desktop/python_lab_exercise/Exercise 3.py ============================================
+============================================ RESTART: /Users/Muzammil/Desktop/python_lab_exercise/Exercise 3.py ============================================
 Please select the shape
 1. Triangle
 2. Square
@@ -30,13 +30,13 @@ Enter choice(1/2/3/4): 3
 Enter the length: 2
 Enter the breadth: 
 Traceback (most recent call last):
-  File "/Users/Aayyan/Desktop/python_lab_exercise/Exercise 3.py", line 40, in <module>
+  File "/Users/Muzammil/Desktop/python_lab_exercise/Exercise 3.py", line 40, in <module>
     area_rectangle()
-  File "/Users/Aayyan/Desktop/python_lab_exercise/Exercise 3.py", line 17, in area_rectangle
+  File "/Users/Muzammil/Desktop/python_lab_exercise/Exercise 3.py", line 17, in area_rectangle
     breadth = float(input("Enter the breadth: "))
 ValueError: could not convert string to float: ''
 
-============================================ RESTART: /Users/Aayyan/Desktop/python_lab_exercise/Exercise 3.py ============================================
+============================================ RESTART: /Users/Muzammil/Desktop/python_lab_exercise/Exercise 3.py ============================================
 Please select the shape
 1. Triangle
 2. Square
@@ -51,13 +51,13 @@ the area of square is:  1.0
 Enter choice(1/2/3/4): 4
 Enter the radius: 3
 Traceback (most recent call last):
-  File "/Users/Aayyan/Desktop/python_lab_exercise/Exercise 3.py", line 42, in <module>
+  File "/Users/Muzammil/Desktop/python_lab_exercise/Exercise 3.py", line 42, in <module>
     area_circle()
-  File "/Users/Aayyan/Desktop/python_lab_exercise/Exercise 3.py", line 23, in area_circle
+  File "/Users/Muzammil/Desktop/python_lab_exercise/Exercise 3.py", line 23, in area_circle
     area = math.pi * radius / (radius - radius)
 ZeroDivisionError: float division by zero
 
-============================================ RESTART: /Users/Aayyan/Desktop/python_lab_exercise/Exercise 3.py ============================================
+============================================ RESTART: /Users/Muzammil/Desktop/python_lab_exercise/Exercise 3.py ============================================
 Please select the shape
 1. Triangle
 2. Square
@@ -77,13 +77,13 @@ the area of triangle is:  6.0
 Enter choice(1/2/3/4): 4
 Enter the radius: 0
 Traceback (most recent call last):
-  File "/Users/Aayyan/Desktop/python_lab_exercise/Exercise 3.py", line 42, in <module>
+  File "/Users/Muzammil/Desktop/python_lab_exercise/Exercise 3.py", line 42, in <module>
     area_circle()
-  File "/Users/Aayyan/Desktop/python_lab_exercise/Exercise 3.py", line 23, in area_circle
+  File "/Users/Muzammil/Desktop/python_lab_exercise/Exercise 3.py", line 23, in area_circle
     area = math.pi * radius / (radius - radius)
 ZeroDivisionError: float division by zero
 >>> 
-============================================ RESTART: /Users/Aayyan/Desktop/python_lab_exercise/Exercise 3.py ============================================
+============================================ RESTART: /Users/Muzammil/Desktop/python_lab_exercise/Exercise 3.py ============================================
 Please select the shape
 1. Triangle
 2. Square
@@ -92,13 +92,13 @@ Please select the shape
 Enter choice(1/2/3/4): 4
 Enter the radius: 4
 Traceback (most recent call last):
-  File "/Users/Aayyan/Desktop/python_lab_exercise/Exercise 3.py", line 42, in <module>
+  File "/Users/Muzammil/Desktop/python_lab_exercise/Exercise 3.py", line 42, in <module>
     area_circle()
-  File "/Users/Aayyan/Desktop/python_lab_exercise/Exercise 3.py", line 23, in area_circle
+  File "/Users/Muzammil/Desktop/python_lab_exercise/Exercise 3.py", line 23, in area_circle
     area = math.pi * radius / (radius - radius)
 ZeroDivisionError: float division by zero
 >>> 
-============================================ RESTART: /Users/Aayyan/Desktop/python_lab_exercise/Exercise 3.py ============================================
+============================================ RESTART: /Users/Muzammil/Desktop/python_lab_exercise/Exercise 3.py ============================================
 Please select the shape
 1. Triangle
 2. Square
@@ -117,8 +117,8 @@ the area of square is:  16.0
 Enter choice(1/2/3/4): 4
 Enter the radius: 
 Traceback (most recent call last):
-  File "/Users/Aayyan/Desktop/python_lab_exercise/Exercise 3.py", line 42, in <module>
+  File "/Users/Muzammil/Desktop/python_lab_exercise/Exercise 3.py", line 42, in <module>
     area_circle()
-  File "/Users/Aayyan/Desktop/python_lab_exercise/Exercise 3.py", line 23, in area_circle
+  File "/Users/Muzammil/Desktop/python_lab_exercise/Exercise 3.py", line 23, in area_circle
     area = math.pi * (radius * radius)
 TypeError: can't multiply sequence by non-int of type 'str'

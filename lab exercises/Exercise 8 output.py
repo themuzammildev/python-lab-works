@@ -1,7 +1,7 @@
 Python 3.11.5 (v3.11.5:cce6ba91b3, Aug 24 2023, 10:50:31) [Clang 13.0.0 (clang-1300.0.29.30)] on darwin
 Type "help", "copyright", "credits" or "license()" for more information.
 
-============================================= RESTART: /Users/Aayyan/Desktop/python_lab_exercise/contacts.py =============================================
+============================================= RESTART: /Users/Muzammil/Desktop/python_lab_exercise/contacts.py =============================================
 1. Add New Contact
 2. Display All Contacts
 3. Search Contact
@@ -32,15 +32,15 @@ Success: Contact abd has been added successfully!!.
 Enter your choice (1-6): 2
 Contact List
 Traceback (most recent call last):
-  File "/Users/Aayyan/Desktop/python_lab_exercise/contacts.py", line 114, in <module>
+  File "/Users/Muzammil/Desktop/python_lab_exercise/contacts.py", line 114, in <module>
     main()
-  File "/Users/Aayyan/Desktop/python_lab_exercise/contacts.py", line 100, in main
+  File "/Users/Muzammil/Desktop/python_lab_exercise/contacts.py", line 100, in main
     display_all(contact_book)
-  File "/Users/Aayyan/Desktop/python_lab_exercise/contacts.py", line 36, in display_all
+  File "/Users/Muzammil/Desktop/python_lab_exercise/contacts.py", line 36, in display_all
     print(index + ". Name: " + contact['name'] + " | Phone: " + contact['phone'] + " | Email: " + contact['email'])
 TypeError: unsupported operand type(s) for +: 'int' and 'str'
 
-============================================= RESTART: /Users/Aayyan/Desktop/python_lab_exercise/contacts.py =============================================
+============================================= RESTART: /Users/Muzammil/Desktop/python_lab_exercise/contacts.py =============================================
 1. Add New Contact
 2. Display All Contacts
 3. Search Contact
@@ -78,7 +78,7 @@ No contact found matching abd
 5. Delete Contact
 6. Exit
 Enter your choice (1-6): 
-============================================= RESTART: /Users/Aayyan/Desktop/python_lab_exercise/contacts.py =============================================
+============================================= RESTART: /Users/Muzammil/Desktop/python_lab_exercise/contacts.py =============================================
 1. Add New Contact
 2. Display All Contacts
 3. Search Contact
@@ -110,7 +110,7 @@ Invalid choice! Please enter a number between 1 and 6.
 5. Delete Contact
 6. Exit
 Enter your choice (1-6): 
-============================================= RESTART: /Users/Aayyan/Desktop/python_lab_exercise/contacts.py =============================================
+============================================= RESTART: /Users/Muzammil/Desktop/python_lab_exercise/contacts.py =============================================
 1. Add New Contact
 2. Display All Contacts
 3. Search Contact
@@ -131,15 +131,15 @@ Success: Contact abd has been added successfully!!.
 Enter your choice (1-6): 2
 Contact List
 Traceback (most recent call last):
-  File "/Users/Aayyan/Desktop/python_lab_exercise/contacts.py", line 115, in <module>
+  File "/Users/Muzammil/Desktop/python_lab_exercise/contacts.py", line 115, in <module>
     main()
-  File "/Users/Aayyan/Desktop/python_lab_exercise/contacts.py", line 101, in main
+  File "/Users/Muzammil/Desktop/python_lab_exercise/contacts.py", line 101, in main
     display_all(contact_book)
-  File "/Users/Aayyan/Desktop/python_lab_exercise/contacts.py", line 36, in display_all
+  File "/Users/Muzammil/Desktop/python_lab_exercise/contacts.py", line 36, in display_all
     print(index + ". Name: " + contact['name'] + " | Phone: " + contact['phone'] + " | Email: " + contact['email'])
 TypeError: unsupported operand type(s) for +: 'int' and 'str'
 
-============================================= RESTART: /Users/Aayyan/Desktop/python_lab_exercise/contacts.py =============================================
+============================================= RESTART: /Users/Muzammil/Desktop/python_lab_exercise/contacts.py =============================================
 1. Add New Contact
 2. Display All Contacts
 3. Search Contact
@@ -222,7 +222,7 @@ Invalid choice! Please enter a number between 1 and 6.
 Enter your choice (1-6): 6
 Thank you for using Contact Book. Bye!
 
-============================================= RESTART: /Users/Aayyan/Desktop/python_lab_exercise/contacts.py =============================================
+============================================= RESTART: /Users/Muzammil/Desktop/python_lab_exercise/contacts.py =============================================
 1. Add New Contact
 2. Display All Contacts
 3. Search Contact
@@ -240,7 +240,7 @@ No contact found matching abcd
 5. Delete Contact
 6. Exit
 Enter your choice (1-6): 
-============================================= RESTART: /Users/Aayyan/Desktop/python_lab_exercise/contacts.py =============================================
+============================================= RESTART: /Users/Muzammil/Desktop/python_lab_exercise/contacts.py =============================================
 1. Add New Contact
 2. Display All Contacts
 3. Search Contact
@@ -262,15 +262,15 @@ Enter your choice (1-6): 5
 Delete Contact
 Enter the name of the contact to delete: john
 Traceback (most recent call last):
-  File "/Users/Aayyan/Desktop/python_lab_exercise/contacts.py", line 116, in <module>
+  File "/Users/Muzammil/Desktop/python_lab_exercise/contacts.py", line 116, in <module>
     main()
-  File "/Users/Aayyan/Desktop/python_lab_exercise/contacts.py", line 108, in main
+  File "/Users/Muzammil/Desktop/python_lab_exercise/contacts.py", line 108, in main
     delete_contact(contact_book)
-  File "/Users/Aayyan/Desktop/python_lab_exercise/contacts.py", line 87, in delete_contact
+  File "/Users/Muzammil/Desktop/python_lab_exercise/contacts.py", line 87, in delete_contact
     print("Success: Contact", contact_book[0]["name"], "has been deleted.")
 IndexError: list index out of range
 
-============================================= RESTART: /Users/Aayyan/Desktop/python_lab_exercise/contacts.py =============================================
+============================================= RESTART: /Users/Muzammil/Desktop/python_lab_exercise/contacts.py =============================================
 1. Add New Contact
 2. Display All Contacts
 3. Search Contact

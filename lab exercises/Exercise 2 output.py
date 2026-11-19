@@ -12,7 +12,7 @@ Enter choice(1/2/3/4): 1
 Enter first number: 2
 Enter second number: 4
 Traceback (most recent call last):
-  File "/Users/Aayyan/Desktop/python_lab_exercise/simple_calculator.py", line 30, in <module>
+  File "/Users/Muzammil/Desktop/python_lab_exercise/simple_calculator.py", line 30, in <module>
     print(num1, "+", num2, "=", add(num1, num2))
 NameError: name 'num1' is not defined
 
@@ -79,7 +79,7 @@ Enter choice(1/2/3/4): 3
 Enter first number: 432d
 Invalid input. Please enter a number.
 Traceback (most recent call last):
-  File "/Users/Aayyan/Desktop/python_lab_exercise/simple_calculator.py", line 38, in <module>
+  File "/Users/Muzammil/Desktop/python_lab_exercise/simple_calculator.py", line 38, in <module>
     print(x, "*", y, "=", multiply(x, y))
 NameError: name 'x' is not defined
 
@@ -102,13 +102,13 @@ Enter second number: 36543
 3.0 * 36543.0 = 109629.0
 Let's do next calculation? (yes/no): no
 Traceback (most recent call last):
-  File "/Users/Aayyan/Desktop/python_lab_exercise/simple_calculator.py", line 51, in <module>
+  File "/Users/Muzammil/Desktop/python_lab_exercise/simple_calculator.py", line 51, in <module>
     power(x,y)
-  File "/Users/Aayyan/Desktop/python_lab_exercise/simple_calculator.py", line 9, in power
+  File "/Users/Muzammil/Desktop/python_lab_exercise/simple_calculator.py", line 9, in power
     return x**y
 OverflowError: (34, 'Result too large')
 
-========================================= RESTART: /Users/Aayyan/Desktop/python_lab_exercise/simple_calculator.py ========================================
+========================================= RESTART: /Users/Muzammil/Desktop/python_lab_exercise/simple_calculator.py ========================================
 please select an operation to perform
 1. add
 2. subtract
@@ -121,7 +121,7 @@ Enter second number: 43
 123.0 - 43.0 = 80.0
 Let's do next calculation? (yes/no): no
 
-========================================= RESTART: /Users/Aayyan/Desktop/python_lab_exercise/simple_calculator.py ========================================
+========================================= RESTART: /Users/Muzammil/Desktop/python_lab_exercise/simple_calculator.py ========================================
 please select an operation to perform
 1. add
 2. subtract
@@ -129,7 +129,7 @@ please select an operation to perform
 4. power
 5. divide
 Enter choice(1/2/3/4): 
-========================================= RESTART: /Users/Aayyan/Desktop/python_lab_exercise/simple_calculator.py ========================================
+========================================= RESTART: /Users/Muzammil/Desktop/python_lab_exercise/simple_calculator.py ========================================
 please select an operation to perform
 1. add
 2. subtract
@@ -145,13 +145,13 @@ Enter choice(1/2/3/4/5): 4
 Enter first number: 2345
 Enter second number: 4321
 Traceback (most recent call last):
-  File "/Users/Aayyan/Desktop/python_lab_exercise/simple_calculator.py", line 41, in <module>
+  File "/Users/Muzammil/Desktop/python_lab_exercise/simple_calculator.py", line 41, in <module>
     print(x, "**",y, "=", power(x,y))
-  File "/Users/Aayyan/Desktop/python_lab_exercise/simple_calculator.py", line 9, in power
+  File "/Users/Muzammil/Desktop/python_lab_exercise/simple_calculator.py", line 9, in power
     return x ** y
 OverflowError: (34, 'Result too large')
 >>> 
-========================================== RESTART: /Users/Aayyan/Desktop/python_lab_exercise/area_calculator.py =========================================
+========================================== RESTART: /Users/Muzammil/Desktop/python_lab_exercise/area_calculator.py =========================================
 Please select the shape
 1. Triangle
 2. Square
@@ -165,11 +165,11 @@ choose the correct option
 Let's do next calculation? (yes/no): yes
 Enter choice(1/2/3/4): 1
 Traceback (most recent call last):
-  File "/Users/Aayyan/Desktop/python_lab_exercise/area_calculator.py", line 43, in <module>
+  File "/Users/Muzammil/Desktop/python_lab_exercise/area_calculator.py", line 43, in <module>
     calculate_circle_area()
 NameError: name 'calculate_circle_area' is not defined
 >>> 
-========================================== RESTART: /Users/Aayyan/Desktop/python_lab_exercise/area_calculator.py =========================================
+========================================== RESTART: /Users/Muzammil/Desktop/python_lab_exercise/area_calculator.py =========================================
 Please select the shape
 1. Triangle
 2. Square
@@ -185,8 +185,8 @@ Let's do next calculation? (yes/no): yes
 Enter choice(1/2/3/4): 1
 Enter the base length: d
 Traceback (most recent call last):
-  File "/Users/Aayyan/Desktop/python_lab_exercise/area_calculator.py", line 43, in <module>
+  File "/Users/Muzammil/Desktop/python_lab_exercise/area_calculator.py", line 43, in <module>
     area_triangle()
-  File "/Users/Aayyan/Desktop/python_lab_exercise/area_calculator.py", line 3, in area_triangle
+  File "/Users/Muzammil/Desktop/python_lab_exercise/area_calculator.py", line 3, in area_triangle
     base = float(input("Enter the base length: "))
 ValueError: could not convert string to float: 'd'
